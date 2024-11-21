@@ -1,0 +1,73 @@
+/* Archivo: estilo.css */
+body {
+    font-family:unset;
+    background-image: url('img/leyends\ español.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+#presentacion {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#presentacion h2 {
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+#presentacion p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#presentacion button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#presentacion button:hover {
+    background-color: #ffcc00;
+}
+
+ h3
+ {
+    background-color: red;
+
+}
